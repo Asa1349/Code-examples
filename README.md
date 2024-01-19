@@ -33,5 +33,5 @@ The CSS selectors or XPath elements will of course need to be adapted to the web
 
 ## Snake
 My own project
-Our beloved mobile phone game from the good old 90s. 
+<br> Our beloved mobile phone game from the good old 90s. 
 Only with abit more colour.
