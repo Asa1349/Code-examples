@@ -9,7 +9,7 @@ First project task
 The run programme reads the main file, automatically launches Streamlit in the browser and displays the table.
 
 
-## Galgemnännchen
+## Galgenmännchen
 My own project
 <br> Here I programmed the classic Hangman game. It has a display of the gallows, a replay function and scores.
 
