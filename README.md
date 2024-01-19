@@ -29,3 +29,9 @@ New project task
 <br> The tool automatically logs in to a specified website. To protect the client's data, I have used a text document for the URL, login credentials and driver path. 
 As a little extra, you could also use encryption/decryption, but for simplicity's sake I have not done this at the moment. 
 The CSS selectors or XPath elements will of course need to be adapted to the website.
+
+
+## Snake
+My own project
+Our beloved mobile phone game from the good old 90s. 
+Only with abit more colour.
