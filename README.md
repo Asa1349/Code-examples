@@ -31,7 +31,3 @@ As a little extra, you could also use encryption/decryption, but for simplicity'
 The CSS selectors or XPath elements will of course need to be adapted to the website.
 
 
-## Snake
-My own project
-<br> Our beloved mobile phone game from the good old 90s. 
-Only with a bit more colour.
