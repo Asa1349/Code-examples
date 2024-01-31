@@ -17,7 +17,7 @@ from datetime import datetime, date
 
 # Auslesen der Login Daten ------------------------------------------------------------------------------------------------
 
-with open(r'G:\Programmieren\Projekte\LoginTool\login.txt', 'r') as f:
+with open('login.txt', 'r') as f:
     lines = f.readlines()
 
 driverpath = lines[0].strip()
@@ -96,19 +96,7 @@ def login():
     dashboard_button.click()
     time.sleep(5)
 
-    print("Finde Kurs_Button-Element")
-    kurs_button = driver.find_element(By.XPATH, '/html/body/div[3]/div[4]/div[2]/div[2]/div/section/div/aside/section[1]/div/div/div[1]/div[2]/div/div/div[1]/div/div/div[4]/div[1]/div/div/a/span[3]/h6')
-    kurs_button.click()
-    time.sleep(10)
     
-
-    print("Finde Script_Button-Element")
-    script_button = driver.find_element(By.XPATH, '/html/body/div[3]/div[3]/div[2]/nav/div/div/div[1]/div[2]/ul/li[3]/a')
-    print("Script_Button click")
-    script_button.click()
-    time.sleep(10)
-
-
     # Zeigt die aktuelle Zeit, die Zeit des Logins und die random - Wartezeit
     current_time = datetime.now().time().strftime('%H:%M')
     print('Letzter Login: ', login_time)
