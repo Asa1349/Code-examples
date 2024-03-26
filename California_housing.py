@@ -24,7 +24,7 @@ from pathlib import Path
 
 # Laden des Datensatzes -------------------------------------------------------
 
-df = pd.read_csv("G:\Programmieren\Machine Learning\O'Reilly\data\housing.csv")
+df = pd.read_csv("data\housing.csv")
 
 
 # Analyse der Daten -----------------------------------------------------------
@@ -47,7 +47,7 @@ df_renamed = df.rename(columns={'latitude':'Latitude', 'longitude':'Longitude',
 df_renamed.plot(kind='scatter', x='Longitude', y='Latitude', s=df_renamed['Population'] / 100, label='Population', 
                 c='Median house value (USD)', cmap='jet', colorbar=True, legend=True, sharex=False, figsize=(10, 7))
 
-map_img = plt.imread("G:\Programmieren\Machine Learning\O'Reilly\data\california_map_c.png")
+map_img = plt.imread("data\california_map_c.png")
 axis = -124.55, -113.95, 32.45, 42.05
 plt.axis(axis)
 plt.imshow(map_img, extent=axis)
